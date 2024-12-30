@@ -130,3 +130,82 @@ span{
     font-size: 0.8rem;
     margin-left: 2px;
 }
+/* panel */
+.panel{
+    display: flex;
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 20px;
+}
+.panel-ops{
+    width:70% ;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* hero section */
+.hero-section{
+    background-image: url(hero_image.jpg);
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    /* background-repeat: no-repeat; */
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    color: black;
+    display: flex;
+    background-color: white;
+    height: 40px;
+    width: 80vw;
+    font-size: 0.85rem;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+
+}
+.hero-msg a{
+    color: #007185;
+}
+
+/* shop-section  */
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e2;
+}
+.box{
+    margin-top: 15px;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+}
+.box-img{
+    height: 300px;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-content{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+
+/* hero2 */
+.hero2{
+    display: flex;
+}
