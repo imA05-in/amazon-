@@ -182,6 +182,7 @@ span{
 /* shop-section  */
 .shop-section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #e2e7e2;
 }
@@ -202,10 +203,4 @@ span{
 .box-content{
     margin-right: 1rem;
     margin-left: 1rem;
-}
-
-
-/* hero2 */
-.hero2{
-    display: flex;
 }
