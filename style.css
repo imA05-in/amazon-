@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box ;
+}
+
+.navBar{
+    height: 60px;
+    background-color:#0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    height: 50px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("/amazon_logo.png");
+}
+
+.border{
+    border: 2px solid transparent;
+    border-radius: 5%;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+.nav-address{
+    
+}
+
+.add-first{
+    color: #cccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second{
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/* box 3 */
+.nav-search{
+    display: flex;
+    background-color: goldenrod;
+    width: 700px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+.nav-search:hover{
+    border: 2px solid goldenrod
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: prx;
+    /* border-right: 4px; */
+    color: #0f1111;
+}
+
+.lang{
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    font-style: bold;
+}
+
+.select2{
+    background-color: #0f1111;
+    color: white;
+    font-style: bold; 
+    border: none; 
+}
+/* box 4 */
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* box 5 */
+
+.nav-cart{
+    display: flex;
+    font-size: 1.8rem;
+    margin-right: 1rem;
+}
+
+.cartPara{
+    /* font-style: bold; */
+    /* font-weight: 700; */
+    font-size: 0.8rem;
+    margin-left: 2px;
+}
